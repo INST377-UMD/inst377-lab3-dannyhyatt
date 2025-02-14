@@ -1,0 +1,57 @@
+header, footer {
+  margin: 1rem;
+  padding: 1rem;
+  text-align: center;
+  background-color: #3e0202;
+  color: white;
+}
+
+.container {
+  display: flex;
+}
+
+.main {
+  width: 75%;
+}
+
+.sidebar {
+  width: 25%;
+  background-color: #f0f0f0;
+}
+
+.sidebar:hover {
+  background-color: #e0e0e0;
+}
+
+.main, .sidebar {
+  padding: 1rem;
+  margin: 1rem;
+}
+
+body {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input[type="text"]:focus {
+  width: 50%;
+}
+
+nav {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  background: #f0f0f0;
+  display: flex;
+  gap: 1px;
+}
+
+nav a {
+  margin: 0;
+  padding: 1rem;
+  background-color: #b0cdf0;
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover {
+  background-color: #f0d0d0;
+}
